@@ -1,0 +1,15 @@
+# 模型权重（各 4~8GB）
+Qwen2-VL-2B-Instruct-ms/
+Qwen2-VL-7B-Instruct-ms/
+
+# Habitat 场景数据
+data/versioned_data/
+*.glb
+
+# 运行时产物
+frame_*.jpg
+vlm_actions.txt
+
+# Python
+__pycache__/
+*.pyc
