@@ -39,19 +39,22 @@ SCENES = {
     "apartment": {
         "path": "/home/nuaawzh/VLM/data/versioned_data/habitat_test_scenes/apartment_1.glb",
         "task": "找到通往卧室的门",
+        "max_steps": 30,
     },
     "vangogh": {
         "path": "/home/nuaawzh/VLM/data/versioned_data/habitat_test_scenes/van-gogh-room.glb",
         "task": "探索整个房间",
+        "max_steps": 30,
     },
     "castle": {
         "path": "/home/nuaawzh/VLM/data/versioned_data/habitat_test_scenes/skokloster-castle.glb",
         "task": "找到城堡的大门",
+        "max_steps": 50,
     },
 }
 
 # 选择场景（可选: "apartment", "vangogh", "castle"）
-SCENE_NAME = "vangogh"
+SCENE_NAME = "castle"
 SCENE_PATH = SCENES[SCENE_NAME]["path"]
 TASK_DESCRIPTION = SCENES[SCENE_NAME]["task"]
 
@@ -59,7 +62,7 @@ TASK_DESCRIPTION = SCENES[SCENE_NAME]["task"]
 OUTPUT_DIR = f"output_{SCENE_NAME}"
 
 # 循环控制
-MAX_STEPS = 30               # 最大VLM决策步数
+MAX_STEPS = SCENES[SCENE_NAME]["max_steps"]  # 最大VLM决策步数（场景自适应）
 STEPS_PER_ACTION = 5         # 每个VLM动作重复执行的habitat步数
 
 # 历史动作入 prompt 的长度
