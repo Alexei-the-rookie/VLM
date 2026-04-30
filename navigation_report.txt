@@ -1,0 +1,10 @@
+Habitat + VLM 导航报告
+场景: /home/nuaawzh/VLM/data/versioned_data/habitat_test_scenes/apartment_1.glb
+任务: 找到通往卧室的门。
+最大步数: 30
+实际步数: 2
+--------------------------------------------------
+Step   动作               位置X        位置Z       
+------------------------------------------
+0      move_forward     0.94       -2.02     
+1      stop             0.24       -2.20     

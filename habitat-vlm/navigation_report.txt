@@ -1,0 +1,41 @@
+Habitat + VLM 导航报告 (v2)
+场景: /home/nuaawzh/VLM/data/versioned_data/habitat_test_scenes/apartment_1.glb
+模型: Qwen2-VL-2B (4-bit)
+任务: 找到通往卧室的门
+最大步数: 30
+实际步数: 31
+VLM 提前stop: 否
+--------------------------------------------------
+Step   动作               位置X        位置Z       
+------------------------------------------
+0      turn_right       0.94       -2.02     
+1      move_forward     0.94       -2.02     
+2      move_forward     0.24       -2.20     
+3      move_forward     0.24       -2.20     
+4      move_forward     0.24       -2.20     
+5      move_forward     0.24       -2.20     
+6      move_forward     0.24       -2.20     
+7      turn_left        0.24       -2.20     
+8      turn_left        0.24       -2.20     
+9      move_forward     0.24       -2.20     
+10     turn_left        0.24       -2.20     
+11     turn_left        0.24       -2.20     
+12     move_forward     0.24       -2.20     
+13     move_forward     0.24       -2.04     
+14     move_forward     0.24       -1.88     
+15     turn_left        0.24       -1.88     
+16     move_forward     0.24       -1.88     
+17     move_forward     0.10       -1.24     
+18     turn_left        -0.67      -0.73     
+19     turn_left        -0.67      -0.73     
+20     move_forward     -0.67      -0.73     
+21     move_forward     -0.69      0.22      
+22     turn_left        -0.71      1.05      
+23     turn_left        -0.71      1.05      
+24     move_forward     -0.71      1.05      
+25     move_forward     -0.51      1.56      
+26     turn_left        -0.72      2.70      
+27     turn_left        -0.72      2.70      
+28     move_forward     -0.72      2.70      
+29     move_forward     -0.77      3.95      
+30     stop             -0.75      4.97      

@@ -1,0 +1,41 @@
+Habitat + VLM 导航报告 (v2)
+场景: vangogh (/home/nuaawzh/VLM/data/versioned_data/habitat_test_scenes/van-gogh-room.glb)
+模型: Qwen2-VL-2B (4-bit)
+任务: 探索整个房间
+最大步数: 30
+实际步数: 31
+VLM 提前stop: 否
+--------------------------------------------------
+Step   动作               位置X        位置Z       
+------------------------------------------
+0      turn_right       3.10       0.97      
+1      move_forward     3.10       0.97      
+2      move_forward     2.34       -0.02     
+3      move_forward     1.59       -0.12     
+4      move_forward     1.59       -0.12     
+5      move_forward     0.87       -0.12     
+6      move_forward     0.87       -0.12     
+7      turn_left        0.87       -0.12     
+8      turn_left        0.87       -0.12     
+9      move_forward     0.87       -0.12     
+10     turn_left        0.87       -0.12     
+11     turn_left        0.87       -0.12     
+12     move_forward     0.87       -0.12     
+13     move_forward     0.87       -0.12     
+14     move_forward     0.87       -0.12     
+15     turn_left        0.87       -0.12     
+16     move_forward     0.87       -0.12     
+17     move_forward     0.87       -0.12     
+18     turn_left        0.87       -0.12     
+19     turn_left        0.87       -0.12     
+20     move_forward     0.87       -0.12     
+21     move_forward     0.91       -0.08     
+22     turn_left        0.95       -0.05     
+23     turn_left        0.95       -0.05     
+24     move_forward     0.95       -0.05     
+25     move_forward     0.97       0.65      
+26     turn_left        1.32       1.23      
+27     turn_left        1.32       1.23      
+28     move_forward     1.32       1.23      
+29     move_forward     1.19       1.63      
+30     stop             1.13       1.63      
